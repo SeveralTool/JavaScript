@@ -83,3 +83,5 @@ BotonHistorialResponsive.addEventListener('click', function(){
     VentanaPedidos.style.display = "none"
     VentanaHistorial.style.display = "block"
 })
+
+//SeveralTool
