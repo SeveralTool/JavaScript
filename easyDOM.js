@@ -1,3 +1,5 @@
+//ASIGNACION DE VARIABLES PARA LOS BOTONES EN DOM
+
 const BotonUser = document.getElementById('btn-user')
 const BotonHistorial = document.getElementById('btn-historial')
 const BotonUserResponsive = document.getElementById('btn-user-res')
@@ -8,16 +10,18 @@ const VentanaUser = document.getElementById('user')
 const VentanaPedidos = document.getElementById('pedidos')
 const VentanaHistorial = document.getElementById('historial')
 
+//ASIGNACION DE ACCIONES POR CADA BOTON
+
 BotonUser.addEventListener('click',function(){
-    BotonUser.style.color = "red"
-    BotonPedidos.style.color = "white"
-    BotonHistorial.style.color = "white"
-    BotonUserResponsive.style.color = "red"
-    BotonPedidosResponsive.style.color = "white"
-    BotonHistorialResponsive.style.color = "white"
-    VentanaUser.style.display = "block"
-    VentanaPedidos.style.display = "none"
-    VentanaHistorial.style.display = "none"
+    BotonUser.style.color = "red" //CAMBIAR COLOR
+    BotonPedidos.style.color = "white" //CAMBIAR COLOR
+    BotonHistorial.style.color = "white" //CAMBIAR COLOR
+    BotonUserResponsive.style.color = "red" //CAMBIAR COLOR
+    BotonPedidosResponsive.style.color = "white" //CAMBIAR COLOR
+    BotonHistorialResponsive.style.color = "white" //CAMBIAR COLOR
+    VentanaUser.style.display = "block" //MUESTRA ESTA VENTANA
+    VentanaPedidos.style.display = "none" //OCULTA ESTA VENTANA
+    VentanaHistorial.style.display = "none" //OCULTA ESTA VENTANA =>
 })
 
 BotonUserResponsive.addEventListener('click',function(){
